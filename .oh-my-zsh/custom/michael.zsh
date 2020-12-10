@@ -28,3 +28,7 @@ function setup_config {
 # Youtube-dl
 
 alias dlmp3='youtube-dl -x --audio-format mp3'
+
+# QMK
+
+alias qmkflash='qmk flash -kb planck/rev6 -km mlcfp'
