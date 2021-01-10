@@ -25,6 +25,8 @@ function setup_config {
   fi
 }
 
+alias configpush='config push --set-upstream origin main'
+
 # Youtube-dl
 
 alias dlmp3='youtube-dl -x --audio-format mp3'
